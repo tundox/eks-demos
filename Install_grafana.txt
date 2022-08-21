@@ -12,7 +12,7 @@ datasources:
 2. Grab Grafana Helm charts
 helm repo add grafana https://grafana.github.io/helm-charts
 
-3. Install Grafana
+3. Install Grafana by Olatunde Olaniyan
 kubectl create namespace grafana
 
 helm install grafana grafana/grafana \
